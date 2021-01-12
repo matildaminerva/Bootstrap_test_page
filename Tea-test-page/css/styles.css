@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Courier Prime", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+h2, h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #FFFFFF;
+}
+
+#features {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#flavours {
+  padding: 5% 5%;
+  margin-top: 5%;
+  text-align: center;
+  background-color: #ffffdd;
+}
+
+
+.quote{
+  font-size: 4rem;
+  margin-top: 5%;
+
+  font-family: Sacramento;
+  color: #679b9b;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.types{
+  font-size: 4rem;
+  margin-top: 5%;
+
+  font-family: Sacramento;
+  color: #679b9b;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.ft-box{
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.icon{
+  color: #e3f6f5;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #679b9b;
+}
+
+.icontwo{
+  color:black;
+  font-size: 1rem;
+}
+
+
+.container-fluid{
+  padding: 1% 1%;
+}
+
+.card-img-top{
+  margin-top: 2rem;
+  width: 200px;
+  height: 200px;
+}
+.card-img-top:hover{
+   filter: grayscale(100%);
+}
+
+.teabag{
+
+  width:70%;
+  height: 75%;
+  float:middle;
+  margin-top: 10%;
+
+}
+
+@media (max-width: 1028 px){
+  .teabag{
+    position: static;
+  }
+}
+
+
+.navbar-brand{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+.tea_button{
+  color: black;
+  background-color: #e3f6f5;
+  margin-top: 2.5%;
+}
+
+.gap-10 {
+				width:100%;
+				height:2rem;
+      }
+
+
+      .gap-5 {
+      				width:100%;
+      				height:1rem;
+            }
+
+            .white_cup{
+
+              width:20%;
+              height: 20%;
+              float:middle;
+              margin-top: 10%;
+
+            }
+
+/* c7e7eb */
+.top-container{
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+  }
+
+  .middle-container{
+  }
+
+  .bottom-container{
+  }
+
+  .top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+  }
+
+  .bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+  }
+
+.kukkia{
+  width:25%;
+  float:left;
+  margin-right: 5%;
+}
+
+
+.flavour{
+  width:70%;
+  margin: 50px 50px 50px 50px;
+
+}
+
+.flavour-text{
+  margin-right: 40%;
+  margin-top: 20%;
+  text-align: left;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+.carousel-control-prev-icon:after
+{
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+@media (max-width: 1028 px){
+  .carousel-item{
+    padding: 7% 7%;
+  }
+}
+
+
+
+.kuva2{
+  width:25%;
+  float: left;
+}
+.taulu{
+  clear:both;
+
+}
+
+
+  .skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 20px;
+  }

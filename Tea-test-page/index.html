@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <title>Tea Bootstrap</title>
+      <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=PT+Mono&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+
+      <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f6f5;">
+          <a class="navbar-brand" href="">Test page "Tea" with Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="">Flavours</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
+         </div>
+        </nav>
+
+      <!-- Title -->
+        <div class = "row">
+          <div class="col-lg-6">
+            <img class="teabag" src="images/tea.png" alt="teabag">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="quote">“A cup of tea would restore my normality."</h1>
+            <div class="gap-5"></div>
+            <h2>-Douglas Adams</h2>
+            <div class="gap-10"></div>
+            <button type="button" class="btn btn-outline-secondary btn-sm tea_button"><i class="fas fa-coffee"></i> I like tea</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm tea_button"><i class="fas fa-times"></i> I don't like tea</button>
+          </div>
+        </div>
+      </div>
+    <div class="gap-10"></div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class = "row">
+      <div class="ft-box col-lg-4">
+        <i class="icon fas fa-heart fa-3x"></i>
+        <h3>Warming</h3>
+        <p>Don't let your tea cool off.</p>
+      </div>
+
+      <div class="ft-box col-lg-4">
+        <i class="icon fas fa-heart fa-3x"></i>
+        <h3>Refreshing</h3>
+        <p>Many teas have caffeine naturally.</p>
+      </div>
+
+      <div class="ft-box col-lg-4">
+        <i class="icon fas fa-heart fa-3x"></i>
+        <h3>Delicious</h3>
+        <p>Everyone can find their favourite flavour.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flavours carousel-->
+  <section id="flavours">
+    <div id="flavour-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h1 class="types">Main types of tea.</h1>
+          <h2>Black tea</h2>
+          <div class = "row">
+            <div class="col-lg-4">
+          </div>
+          <div class="col-lg-4">
+              <img class="flavour" src="images/black_tea.png" alt="black_tea">
+          </div>
+          <div class="col-lg-4">
+              <p class="flavour-text">Black tea is generally stronger in flavor than other teas and is very popular in the western world.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <h1 class="types">Main types of tea.</h1>
+        <h2>Green tea</h2>
+        <div class = "row">
+          <div class="col-lg-4">
+        </div>
+        <div class="col-lg-4">
+          <img class="flavour" src="images/green_tea.png" alt="green_tea">
+        </div>
+        <div class="col-lg-4">
+          <p class="flavour-text">Green tea is a type of tea that is made from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process used to make black tea.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <h1 class="types">Main types of tea.</h1>
+      <h2>White tea</h2>
+      <div class = "row">
+        <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4">
+        <img class="flavour" src="images/white_tea.png" alt="white_tea">
+      </div>
+        <div class="col-lg-4">
+        <p class="flavour-text">Green tea is a type of tea that is made from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process used to make black tea.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <h1 class="types">Main types of tea.</h1>
+      <h2>Rooibos</h2>
+      <div class = "row">
+        <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4">
+        <img class="flavour" src="images/rooibos_tea.png" alt="rooibos_tea">
+      </div>
+      <div class="col-lg-4">
+        <p class="flavour-text">Green tea is a type of tea that is made from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process used to make black tea.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+    <a class="carousel-control-prev" href="#flavour-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#flavour-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  </section>
+
+  <!-- Addings -->
+  <h1 class="types">What you can add to tea?</h1>
+  <div class="gap-10"></div>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class=" mx-auto card-img-top" src="images/milk.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Milk</h2>
+            <p class="card-text"><small class="text-muted"><i class="icontwo fas fa-heart fa-3x"></i></small></p>
+            <p class="card-text">You can pour some milk or cream to your tea.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class=" mx-auto card-img-top" src="images/sugar.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Sugar</h2>
+            <p class="card-text"><small class="text-muted"><i class="icontwo fas fa-heart fa-3x"></i></small></p>
+            <p class="card-text">Sugar is also very popular choice. You can also use honey.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <div class="card">
+          <img class=" mx-auto card-img-top" src="images/lemon.png" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Lemon</h2>
+            <p class="card-text"><small class="text-muted"><i class="icontwo fas fa-heart fa-3x"></i></small></p>
+            <p class="card-text">Some people even like their tea with lemon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Footer -->
+    <footer id="footer">
+        <div class="gap-10"></div>
+        <p>© Copyright 2020 Matilda Sipilä</p>
+    </footer>
+  </body>
+</html>
